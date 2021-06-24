@@ -1,0 +1,50 @@
+================================================================================================
+                                        Address Parsing
+Yash Jain (MDS202048)                                                                 April 2021
+Yash Raj  (MDS202049)
+================================================================================================
+
+Libraries Used:
+
+1- Beautiful Soup: 
+   Beautiful Soup is a Python package for parsing HTML and XML documents. It creates a parse tree 
+   for parsed pages that can be used to extract data from HTML, which is useful for web scraping.
+
+2- Pathlib:
+   The Pathlib module in Python deals with path related tasks, such as constructing new paths from 
+   names of files and from other paths, checking for various properties of paths and creating files 
+   and folders at specific paths.
+
+3- RE or Regular Expression:
+   A regular expression (or RE) specifies a set of strings that matches it; the functions in this 
+   module let you check if a particular string matches a given regular expression (or if a given 
+   regular expression matches a particular string, which comes down to the same thing).
+
+4- The Natural Language Toolkit (NLTK):
+   NLTK is a platform used for building Python programs that work with human language data for 
+   applying in statistical natural language processing (NLP). It contains text processing libraries 
+   for tokenization, parsing, classification, stemming, tagging and semantic reasoning.
+
+5- spaCy:
+   spaCy is an open-source software library for advanced natural language processing, written in the 
+   programming languages Python and Cython. It is designed to build information extraction or natural 
+   language understanding systems.
+
+6- wordfreq:
+   wordfreq is a Python library for looking up the frequencies of words in many languages, based on 
+   many sources of data
+
+================================================================================================
+                                      Installation Commands
+================================================================================================
+
+Please make sure that the above libraries are installed before running "process.py"
+
+1. pip install nltk    
+2. nltk.download('english')                     
+3. pip install spacy                       
+4. pip install wordfreq                    
+5. python -m spacy download en_core_web_sm 
+
+================================================================================================
+
